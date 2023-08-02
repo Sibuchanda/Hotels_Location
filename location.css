@@ -1,0 +1,728 @@
+
+
+
+*{
+  
+    margin:0;
+    padding:0%;
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    background-color: rgb(201 201 201);
+
+}
+
+html{
+
+    font-size:62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* <!-- Navbar Section */
+/* ======================================== */
+
+#navbar{
+/* border:2px solid red; */
+ display:flex;
+ position:absolute;
+ align-items: center;
+ justify-content: center;
+ width:100vw;
+ height:15%;
+ margin:5px 5px;
+ top:0px;
+ left:0px;
+
+
+
+}
+#navbar ul{
+    /* border:2px solid red; */
+ display:flex;
+
+
+}
+#navbar ul li{
+  
+    list-style: none;  
+    font-size:1.8rem; 
+
+}
+
+#navbar ul li a{
+  
+    text-decoration: none; 
+    margin: 0px 50px;
+    padding: 1px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    
+  
+
+}
+#navbar ul li a:hover{
+  
+    text-decoration: underline;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    color:black;
+
+}
+
+#partition{
+
+    font-size:2rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+#button{
+
+    margin:5px 50px;
+    /* padding:5px 5px; */
+
+}
+
+#button .b_btn{
+border-radius: 5px;
+border:2px solid orange;
+ margin:2px 20px;
+ padding:1px 5px;
+ font-size: 1.5rem;
+ width:70px;
+ background-color: rgb(255, 166, 0);
+ color:white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#button .b_btn:hover{
+
+    cursor: pointer;
+    color:black;
+    background-color: rgb(197, 140, 33);
+}
+
+
+/* ===================================================================== */
+
+
+
+/* ========================================================================= */
+
+/* <!-- Home section --> */
+
+#home{
+
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction: column;
+     padding:15px 0px;
+     height:650px;
+     align-items: center;
+     justify-content: center;
+}
+
+#home::before{
+
+content:"";
+background: url('./Images/howrah_bridge2.jpg') no-repeat center center/cover;
+position: absolute;
+/* width:100%; */
+width:100vw;
+height:90%;
+top:0px;
+left:0px;
+z-index: -1;
+opacity:1;
+
+
+}
+
+#home p{
+
+  font-size: 2rem;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+    
+}
+
+#home h1{
+color: white;
+font-size: 7rem;
+font-family:cursive;
+
+}
+
+#home h1 {
+    text-shadow: 2px 2px  #ff9800;
+}
+
+
+#home p {
+    text-shadow:3px 3px rgb(153 100 0);
+}
+
+
+/* ==================================================================================*/
+
+
+
+
+/* ======================================================================================== */
+
+/* Content section */
+
+
+#content{
+
+/* border:2px solid red; */
+width:60%;
+/* height:330%; */
+margin:10px 10px;
+padding:10px 10px;
+position:absolute;
+left:20%;
+top:80%;
+background-color: rgb(228 228 228);
+
+
+}
+
+
+/* lavel section */
+
+#content .label{
+
+/* border:2px solid red; */
+margin: 0px 50px;
+padding: 0px 10px;
+font-size: 1.4rem;;
+
+
+}
+
+
+/* ======================================================================================== */
+
+
+
+
+
+/* ======================================================================================== */
+
+/* select section */
+
+#content .select{
+    /* border:2px solid red; */
+    display: flex;
+
+
+
+}
+#content .select #button2{
+    border-radius: 6px;
+    border:2px solid #90c5de;
+    background-color: #90c5de;
+    color: white;
+    width: 80px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 1.5rem;
+    width:100px;
+
+
+}
+
+#content .select #button2:hover{
+
+  cursor: pointer;
+  background-color: rgb(137, 177, 189);
+  color: rgb(128, 120, 120);
+
+}
+
+#content .select .choose{
+
+     padding:2px 2px;
+     margin:5px 40px;
+     width:80px;
+
+
+}
+
+input[type='date']{
+
+    border: 2px solid rgb(210, 206, 206);
+    padding:2px 2px;
+    margin:5px 45px;
+    
+}
+
+
+.home_heading{
+
+    font-size: 2.5rem;
+    text-align: center;
+    margin:20px 0px;
+    padding:20px  0px;
+    color: rgb(103, 98, 98);
+}
+.home_partition{
+
+ position: absolute;
+ top:4%;
+ right:50%;
+ 
+} 
+.home_partition p{
+
+font-size: 5rem;
+color:rgb(255, 166, 0);
+ 
+}
+.home_para{
+
+    font-size: 1.3rem;
+    text-align: center;
+     justify-content: center;
+    color: rgb(103, 98, 98);
+   
+}
+
+
+/* ======================================================================================== */
+
+
+
+
+/* ======================================================================================== */
+
+/* Apartment section */
+
+#room{
+   /* border:2px solid red; */
+    display:grid;
+    margin: 40px 0px;
+  
+    grid-template-columns: 0.5fr 1fr;
+    /* grid-gap:0.5rem; */
+
+}
+#room .item-1,.item-2,.item-3,.item-4{
+
+  background-color: rgb(159, 207, 229);
+  height:300px;
+  
+}
+#room .item-1{
+  display: flex;
+   background-color:#41949c;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+#room .item-1 h1{
+
+   color:white;
+   font-size: 4rem;
+   text-align: center;
+   font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+#room .item-2 img{
+
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;  
+  
+}
+
+#room .item-3 img{
+
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;  
+  
+}
+
+#room .item-4{
+   display:flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#room .item-4 p{
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: #6d6060c7;
+  
+}
+
+#room .item-4 .button3 .btn3{
+
+  position: absolute;
+  top:26%;
+  left:36%;  
+  color:rgb(93, 203, 247);
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#room .item-4 .button3 .btn3:hover{
+
+ text-decoration: underline;
+ color: rgb(6, 179, 231);
+}
+
+/* ======================================================================================== */
+
+
+
+
+
+/* ======================================================================================== */
+/* Location section */
+
+.location{
+
+
+    display:grid;
+    /* margin: 40px 0px; */
+  
+    grid-template-columns: 2fr 1fr;
+    grid-row-gap:0.3rem;
+
+}
+
+.location .item-1,.item-2{
+
+   
+  background-color: rgb(159, 207, 229);
+  height:300px;
+   
+}
+.location .item-1 img{
+
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+ 
+   
+}
+.location .item-2{
+  
+   
+  display: flex;
+  background-color:#41949c;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.location .item-2 h1{
+
+   
+  color:white;
+  font-size: 4rem;
+  font-family:cursive;
+  
+   
+}
+
+
+
+.about_location{
+
+ position:relative;
+ top:55px;
+
+}
+.about_location p{
+
+  font-size: 1.5rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #6c6666cf;
+
+}
+
+.view_map{
+
+    text-align: center;
+    font-size: 2rem;
+    position:relative;
+    top:90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: #4fc3f7d1;
+}
+
+.view_map:hover{
+  
+   text-decoration: underline;
+   color: #2196f3;
+   cursor: pointer;  
+}
+
+
+/* ======================================================================================== */
+
+
+
+
+
+
+/* ======================================================================================== */
+/* About section */
+
+#about{
+
+display:grid;
+grid-template-columns: 1fr 3fr;
+margin:10px;
+position: relative;
+top:130px;
+
+
+
+}
+
+#about .item-1 img{
+
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+ 
+   
+}
+
+#about .item-2{
+   background-color: rgb(131, 195, 229);
+    height:100%;
+ 
+   
+}
+
+#about .item-2 h1{
+
+    color:white;
+    font-size: 2rem;;
+     position:relative;
+     top:45px;
+     margin:0px 60px;
+
+
+   
+}
+
+#about .item-2 h2{
+
+    font-size: 3rem;
+    position: relative;
+    top: 40px;
+    margin: 0px 62px;
+    color: orange;
+   
+}
+#about .item-2 p{
+
+ 
+    color:white;
+    font-size: 1.5rem;;
+     position:relative;
+     text-align: center;
+     top:65px;
+     margin:0px 60px;
+     font-family:'Times New Roman', Times, serif;
+
+   
+}
+
+#about .item-2 h3 a{
+
+ 
+    color:white;
+    font-size: 1.7rem;;
+     position:relative;
+     top:100px;
+     font-family:cursive;
+     margin:0px 60px;
+     text-decoration: none;
+
+     
+   
+   
+}
+
+
+#about .item-2 h3 a:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+/* ======================================================================================== */
+
+
+
+
+
+
+
+/* ======================================================================================== */
+/* Contact Section */
+
+ #contact{
+ display: flex;
+ flex-wrap: wrap;
+ position:relative;
+ top:300px;
+
+
+ }
+
+
+ /* Section 1 */
+ .section1 h1{
+
+    font-size: 2rem;
+    color: #645d5dcf;
+    margin: 0px 20px;
+ }
+ .section1 h2{
+    font-size: 3rem;
+    color: #ffa918cf;
+    margin: 0px 25px;
+
+}
+ 
+ .section1 p{
+
+    font-size: 1.4rem;
+    color: #645d5dcf;
+    margin: 14px 20px;
+ }
+ .section1 h3{
+
+    font-size: 1.1rem;
+    color: #645d5dcf;
+    margin: 0px 20px;
+    
+ }
+ .section1 h3 a{
+
+    text-decoration: none;
+ }
+
+
+ /* Section 2 */
+
+ .section2{
+
+    margin:0px 30px;
+ }
+ .section2 h1{
+
+
+    font-size: 2rem;
+    color: #645d5dcf;
+    margin: 0px 20px;
+
+ }
+ .section2 h2{
+
+    font-size: 3rem;
+    color: #ffa918cf;
+    margin: 0px 25px;
+ }
+
+ .section2 .image{
+
+ display: flex;
+ margin: 20px 0px;
+
+ }
+
+ .section2 .image img{
+
+  height:3.8rem;
+  width:3.8rem;
+  margin:10px 7px;
+  padding:2px 2px;
+
+ }
+
+
+
+ /* Section 3 */
+
+ .section3{
+
+    margin:0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
+ .section3 h1{
+
+
+    font-size: 2rem;
+    color: #645d5dcf;
+    margin: 0px 20px;
+
+ }
+ .section3 h2{
+
+    font-size: 3rem;
+    color: #ffa918cf;
+    margin: 0px 25px;
+ }
+
+ .section3 input[type="text"]{
+    padding: 3px 5px;
+    margin: 20px 25px;
+    background-color: #8080802e;
+    font-weight: bold;
+
+ }
+
+ .section3 button{
+
+    padding: 3px 5px;
+    margin: 0px 25px;
+    background-color:#808080b5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+ }
+ .section3 button:hover{
+
+    background-color:#808080d8 ;
+
+ }
+
+
+ /* ======================================================================================== */
+
+
+
+

@@ -1,0 +1,73 @@
+/* The bellow code is for only the content section */
+/* =======================================================
+======================================================= */
+
+
+@media only screen and (min-width:1600px) and ( max-width:3500px){
+
+#content{
+    height:190%;   
+}
+
+}
+@media only screen and (min-width:1000px) and ( max-width:1599px){
+
+#content{
+    height:330%;   
+}
+
+}
+@media only screen and (min-width:540px) and ( max-width:999px){
+
+#content{
+    height:200%;   
+}
+
+}
+@media only screen and (min-width:300px) and ( max-width:539px){
+
+#content{
+    height:220%;   
+}
+
+}
+
+/* The above code is for only the content section */
+
+/* ======================================================= */
+/* ======================================================= */
+
+
+
+/* @media only screen and (min-width:300px) and (max-width:900px){
+
+
+    #home::before{
+
+     width:100vh;  
+     
+
+    }
+
+    #content{
+
+        height:450%;
+    }
+
+
+
+
+    #home h1{
+      
+        font-size: 3.5rem;
+        
+        }
+
+    #home p{
+      
+        font-size: 1.7rem;
+        
+        }
+
+
+} */
